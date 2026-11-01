@@ -92,5 +92,5 @@ All 11 errors fall within one window of an activity change.
 ## Sensor notes
 
 - The acceleration channel used is Sensor Logger's `TotalAcceleration.csv` (accelerometer including gravity, m/s²), together with `Gyroscope.csv` (rad/s). `Accelerometer.csv` has gravity removed on Android, which would hide the phone's orientation.
-- Recorded on a Samsung Galaxy A33 5G (SM-A336B); the requested 100 Hz was delivered as about 62 Hz; every clip is resampled to 50 Hz.
+- Recorded on a Samsung Galaxy A33 5G; the requested 100 Hz was delivered as about 62 Hz; every clip is resampled to 50 Hz.
 - The chained files are built by joining separate clips, so the changes between activities in them are idealised.
